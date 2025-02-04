@@ -69,7 +69,7 @@
     background-color: #FEF1F1;
     align-items: center;
 }
-@keyframes slider {
+@keyframes slides {
     0% { transform: translateX(0); }
     33% { transform: translateX(-100%); }
     66% { transform: translateX(-200%); }
