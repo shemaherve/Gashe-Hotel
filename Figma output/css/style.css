@@ -87,11 +87,14 @@
   }
   
   #slide1 {
-    background-image: url('../Image/back.jpeg')
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),url('../Image/back.jpeg')
   }
   
   #slide3 {
-    background-image: url('../Image/u.jpeg')
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url('../Image/u.jpeg')
+  }
+  #slide4 {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url('../Image/i.jpeg')
   }
   
 
@@ -109,11 +112,12 @@
     animation-delay: 0s;
   }
   
-  #slide2 {
-    animation-delay: 3s; 
-  }
+
   
   #slide3 {
+    animation-delay: 3s;
+  }
+  #slide4 {
     animation-delay: 6s;
   }
   .slides {
@@ -122,7 +126,37 @@
     position: relative;
     overflow: hidden;
   }
+  .slide-button{
+    background-color: transparent;
+    align-items: center;
+    margin-top: 1cm;
+    padding: 8px;
+    margin-left: 17cm;
+    color: white;
+    border:  2px solid white;
+    
+  }
+  .ptitle{
+    font-family: 'Roboto',sans-serif;
+    font-size: 32px;
+    color: white;
+    margin-top: 5cm;
+    margin-left: 10.5cm;
+    text-shadow: 3px 3px 8px rgba(255, 255, 255, 0.8);
+  }
+  .ptitle span{
+    margin-left: 6cm;
+  }
+  .pptitle{
+    font-family: 'Righteous',sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-left: 12.5cm;
   
+  }
+  .icon-left{
+    margin-right: 17cm;
+  }
 
 
 
