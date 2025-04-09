@@ -14,13 +14,11 @@
     font-family: 'montserrat',sans-serif;
     font-size: 12px;
 }
-
 .icon {
     display: flex;
     align-items: center;
     gap: 8px; 
 }
-
 .icon i {
     font-size: 18px;
 }
@@ -75,7 +73,6 @@
     position: relative;
     overflow: hidden;
   }
-  
   .slide {
     position: absolute;
     width: 100%;
@@ -103,14 +100,9 @@
          opacity: 1;
          } 
   }
-  
-  
   #slide1 {
     animation-delay: 0s;
   }
-  
-
-  
   #slide3 {
     animation-delay: 3s;
   }
@@ -151,6 +143,3 @@
   .icon-left{
     margin-right: 17cm;
   }
-
-
-
