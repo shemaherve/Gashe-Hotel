@@ -3,7 +3,11 @@
 *{
     padding: 0px;
     margin: 0px;
+  
     list-style: none;
+}
+body{
+  overflow-x: hidden;
 }
 .frist {
     display: flex;
@@ -36,6 +40,7 @@
     border: 2px solid white;
     font-weight: bold;
 }
+
 .menu{
 
      position: fixed;
@@ -167,19 +172,20 @@
     display: flex;
   }
   .down-location{
-    margin-top: 0.5cm;
+    margin-top: 1.5cm;
     margin-left: 1cm;
     text-decoration: none;
     color: #000000;#
     
   }
+
   .down-location a{
     color: #000000;
     font-family: 'montserrat',sans-serif;
     font-size: 12px;
   }
   .section2 center h4{
-    margin-top: 1cm;
+    margin-top: 2cm;
     margin-left: 8cm;
     font-family: 'montserrat',sans-serif;
   }
@@ -323,4 +329,38 @@ margin-left: -2.5cm;
   display: flex;
   font-size: 50px;
   
+}
+.swiper-slide h4{
+  font-family: 'montserrat',sans-serif;
+  font-size: 17px;
+  color: #000000;
+  margin-left: 1cm;
+  margin-top: 0.5cm;
+}
+.swiper-slide p{
+  font-family: 'montserrat',sans-serif;
+  font-size: 15px;
+  color: #000000;
+  margin-left: 1cm;
+}
+.swiperhead{
+  margin-top: 1.5cm;
+  margin-left: 15cm;
+  font-family: 'montserrat',sans-serif;
+  font-size: 15px;
+  margin-bottom: 1cm;
+}
+.learnmore{
+  height: 1cm;
+  width: 3cm;
+  background: transparent;
+  border: 1px solid black;
+  margin-left: 1cm;
+  margin-top: 0.3cm;
+}
+.learnmore a{
+  text-decoration: none;
+  color: black;
+  font-family: 'montserrat',sans-serif;
+  font-size: 12px;
 }

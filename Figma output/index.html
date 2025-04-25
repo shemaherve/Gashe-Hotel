@@ -3,6 +3,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
@@ -159,6 +166,137 @@ offering breathtaking views of Kicukiro.
    </div>
    
     </div>
+    <div class="new hotel">
 
+      <style>
+        .swiper-container {
+          width: 100%;
+          height: 600px;
+          position: absolute;
+          top: 1800px;
+          background-color: #F8F1F1;
+        }
+        .swiper-container {
+          
+        }
+        .swiper-slide {
+          transition: 0.4s ease-in-out;
+          animation: fade 0.2s ease-in-out;
+        }
+        .swiper-slide img {
+          width: 85%;
+          height: 40%;
+          object-fit: cover;
+          margin-left: 1cm;
+         
+        }
+        /* .swiper-slide:nth-child(odd) {
+          background-color: darkred;
+        }
+        .swiper-slide:nth-child(even) {
+          background-color: darkgray;
+        } */
+        @keyframes fade {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+      </style>
+      <div class="swiper-container swiper">
+        <h4 class="swiperhead">OFFER & PACKAGE</h4>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="../Figma output/Image/valentine.png" alt="">
+            <h4> Exclusive Valentine Day Escape</h4>
+            <p>Available:February 7, 2025  Feb 16, 2025 <br>
+              Indulge in an unforgettable celebration
+              of love with our Valentine's Day package</p>
+             <button class="learnmore">
+              <a href="#">LEARN MORE</a>
+             </button>
+          </div>
+          <div class="swiper-slide">
+            <img src="../Figma output/Image/gate.jpeg" alt="">
+            <h4>Perfect  Gateway to create memory</h4>
+            <p>plan to create memory with your 
+              friend,Gily frieend and others with
+              New paradise Gesha Hotel</p>
+              <button class="learnmore">
+                <a href="#">LEARN MORE</a>
+               </button>
+          </div>
+          <div class="swiper-slide">
+            <img src="../Figma output/Image/family.jpeg" alt="">
+            <h4>Premium Room & Suit Await</h4>
+            <p>Available: February 7,2025 - Feb 16, 2025
+              Indulge in an unforgettable celebration of 
+              love with our Valentine's Day package</p>
+              <button class="learnmore">
+                <a href="#">LEARN MORE</a>
+               </button>
+          </div>
+          <div class="swiper-slide">
+            <img src="../Figma output/Image/symfony.png" alt="">
+            <h4> Friday symphony Band </h4>
+            <p>Available: February 7,2025 - Feb 16, 2025
+              Indulge in an unforgettable celebration of 
+              love with our Valentine's Day package</p>
+              <button class="learnmore">
+                <a href="#">LEARN MORE</a>
+               </button>
+          </div>
+          <div class="swiper-slide">
+            <img src="../Figma output/Image/gym.jpeg" alt="">
+            <h4> Body fiting Gym</h4>
+            <p>Available: February 7,2025 - Feb 16, 2025
+              Indulge in an unforgettable celebration of 
+              love with our Valentine's Day package</p>
+              <button class="learnmore">
+                <a href="#">LEARN MORE</a>
+               </button>
+          </div> 
+        </div>
+        <div class="swiper-pagination"></div>
+        
+      
+      </div>
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const swiper = new Swiper(".swiper-container", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            pagination: {
+              el: ".swiper-pagination",
+            },
+            navigation: {
+              
+            
+            },
+            // autoplay: {
+            //   delay: 500,
+            //   disableOnInteraction: true,
+            // },
+            breakpoints: {
+              600: {
+                slidesPerView: 2,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
+            },
+          });
+        });
+      </script>
+  
+    </div>
+    
   </body>
 </html>
+
+
+
+    
