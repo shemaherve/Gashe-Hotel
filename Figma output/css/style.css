@@ -9,15 +9,17 @@
 body{
   overflow-x: hidden;
 }
-.frist {
-    display: flex;
-    justify-content: flex-end; 
-    gap: 20px;
-    padding: 10px 20px;
-    background-color: #f8d7da; 
-    font-family: 'montserrat',sans-serif;
-    font-size: 12px;
-    z-index: 100%;
+.frist{
+  display: flex;
+  justify-content: flex-end; 
+  gap: 20px;
+  padding: 10px 20px;
+  background-color: #f8d7da; 
+  font-family: 'montserrat', sans-serif;
+  font-size: 12px;
+  /* Ensures it stays above other elements */
+}
+
 }
 
 .icon {
@@ -40,7 +42,6 @@ body{
     border: 2px solid white;
     font-weight: bold;
 }
-
 .menu{
 
      position: fixed;
@@ -362,5 +363,23 @@ margin-left: -2.5cm;
   text-decoration: none;
   color: black;
   font-family: 'montserrat',sans-serif;
+  font-size: 12px;
+}
+.brunch img{
+  height: 4cm;
+  width: 4cm;
+  position: absolute;
+  top: 400px; 
+  left: 1000px;
+}
+.brunch button{
+  height: 1cm;
+  width: 4cm;
+  background-color: #F1AAAA;
+  border: none;
+ position: absolute;
+  top: 550px; 
+  left: 1000px;
+  font-family: 'ROBOTO',sans-serif;
   font-size: 12px;
 }
