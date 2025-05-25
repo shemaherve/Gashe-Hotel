@@ -511,3 +511,29 @@ margin-top: 6cm;
   font-size: 14px;
   position: absolute;
 }
+.headerc{
+  
+    width: 100%;
+    height: 2cm;
+  }
+  .cont{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+
+  }
+#contimg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),url('../Image/back.jpeg');
+}
+.contii{
+  height: 25cm;
+}
+.album{
+  position: absolute;
+  color: white;
+  font-family: 'montserrat',sans-serif;
+  top: 150px;
+  left: 600px;
+}
