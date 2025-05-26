@@ -537,3 +537,42 @@ margin-top: 6cm;
   top: 150px;
   left: 600px;
 }
+.contee{
+  height: 17cm;
+  width: auto;
+}
+.formi img{
+  height: 8cm;
+  width: 7cm;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  
+}
+.options{
+  height: 6cm;
+  width: 5cm;
+  border-radius: 10px;
+  background-color: white;
+  border: 3px solid black;
+  margin-top: 1cm;
+  position: absolute;
+  left: 7cm; 
+}
+   .info-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+.transp{
+  height: 5cm;
+  width: 4cm;
+  background:  rgba(60, 32, 10, 0.15);
+  position: absolute;
+  top: 570px;
+  left: 12.5cm;
+ & h4{
+  color: #E3DFDF;
+  margin-top: 2cm;
+  font-weight: bold;
+ }
+}
