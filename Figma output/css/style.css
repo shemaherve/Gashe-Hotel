@@ -576,3 +576,97 @@ margin-top: 6cm;
   font-weight: bold;
  }
 }
+/* ---------------------SECTION 4------- */
+.section4{
+  background-color: white;
+  height: 150vh;
+  width: 100vw;
+}
+.section4 img{
+ position: absolute;
+  top:2480px;
+ height: 8.5cm;
+ width: 11cm;
+ left: 9cm;
+}
+.contact1{
+  height: 100vh;
+  width: 100vw;
+  background-color: #E3DFDF;
+}
+.section4 h2{
+  position: absolute;
+  top: 2440px;
+left: 12cm;
+font-size: 15px;
+  
+}
+.section4 h4{
+  color: rgb(18, 18, 94);
+  position: absolute;
+  top: 2500px;
+  left: 130vh;
+}
+.section4 p{
+  color: black;
+  position: absolute;
+  top: 2530px;
+  left: 130vh;
+  font-size: 13px;
+}
+.family img{
+  position: absolute;
+  height: 5.5cm;
+  width: 5cm;
+  left: 17cm;
+  top: 2660px;
+  border: 1px solid black;
+}
+.circle{
+  position: absolute;
+  left: 185vh;
+  top: 2530px;
+ 
+  
+}
+.circle .number{
+  border-radius: 100%; 
+  border: 1px solid black;
+}
+.rwa{
+  position: absolute;
+  left: 175vh;
+  top: 2800px;
+}
+.bord{
+  border: 2px solid gray;
+  position: absolute;
+  width: 70px;
+  left: 80vh;
+  top: 3060px;
+}
+.bord2{
+  border: 1px solid gray;
+  position: absolute;
+  width: 150px;
+  left: 88vh;
+  top: 3061px;
+}
+.pre p{
+  position: absolute;
+  width: 70px;
+  left: 75vh;
+  top: 3050px;
+}
+.nex p{
+  position: absolute;
+  width: 150px;
+  left: 112vh;
+  top: 3054px;
+}
+.nex span{
+  position: absolute;
+  width: 150px;
+  left: 94vh;
+  top: 3062px;
+}
